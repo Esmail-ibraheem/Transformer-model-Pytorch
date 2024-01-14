@@ -77,11 +77,11 @@ class MultiHeadAttentionBlock(nn.Module):
 
         self.d_k = d_model // heads 
 
-        self.W_Q = nn.Linear(d_model, d_model)
-        self.W_K = nn.Linear(d_model, d_model)
-        self.W_V = nn.Linear(d_model, d_model)
+        self.W_Q = nn.Linear(d_model, d_model) # Query weights
+        self.W_K = nn.Linear(d_model, d_model) # key weights 
+        self.W_V = nn.Linear(d_model, d_model) # value weights
 
-        self.W_O = nn.Linear(d_model, d_model)
+        self.W_O = nn.Linear(d_model, d_model) # output 
         self.dropout = nn.Dropout(dropout)
 
     @staticmethod
