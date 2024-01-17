@@ -1,6 +1,5 @@
 #llTRA = Language to Language Transformer model 
 import math
-from socket import INADDR_ALLHOSTS_GROUP
 import torch 
 import torch.nn as nn
 
