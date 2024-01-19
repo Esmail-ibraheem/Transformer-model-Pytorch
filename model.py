@@ -1,5 +1,6 @@
 #llTRA = Language to Language Transformer model 
 import math
+from socket import INADDR_ALLHOSTS_GROUP
 import torch 
 import torch.nn as nn
 
@@ -65,7 +66,7 @@ class MultiHeadAttentionBlock(nn.Module):
         self.W_K = nn.Linear(d_model, d_model) # Key weights 
         self.W_V = nn.Linear(d_model, d_model) # Value weights 
 
-        self.W_O = nn.Linear(d_model, d_model) # ouput 
+        self.W_O = nn.Linear(d_model, d_model) # output 
         self.dropout = nn.Dropout(dropout)
     @staticmethod
     def Attention(Query, Key, Value, mask, dropout: nn.Module):
@@ -109,10 +110,10 @@ class EncoderBlock(nn.Module):
         self.encoder_feed_forward_block = encoder_feed_forward_block
         self.residual_connection = nn.ModuleList([ResidualConnection(dropout) for _ in range(2)])
     def forward(self, x, source_mask):
-        x = self.residual_connection[0](x, lambda x: self.encoder_self_attention_block(x, x, x, source_mask)) # x, x, x, source_mask = Query, Key, Value
+        x = self.residual_connection[0](x, lambda x: self.encoder_self_attention_block(x, x, x, source_mask)) # x, x, x, source_mask = Query, Key, Value, source_mask 
         x = self.residual_connection[1](x, self.encoder_feed_forward_block)
         return x
-        
+
 class Encoder(nn.Module):
     def __init__(self, Layers: nn.ModuleList) -> None:
         super().__init__()
