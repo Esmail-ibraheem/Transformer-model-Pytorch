@@ -1,6 +1,5 @@
 #llTRA = Language to Language Transformer model 
 import math
-from socket import INADDR_ALLHOSTS_GROUP
 import torch 
 import torch.nn as nn
 
@@ -102,7 +101,7 @@ class ResidualConnection(nn.Module):
     def forward(self, x, subLayer):
         return x + self.dropout(subLayer(self.normalization(x)))
 
-#Building the encoder block 
+#Building the encoder block     
 class EncoderBlock(nn.Module):
     def __init__(self, encoder_self_attention_block: MultiHeadAttentionBlock, encoder_feed_forward_block: FeedForwardBlock, dropout: float) -> None:
         super().__init__()
