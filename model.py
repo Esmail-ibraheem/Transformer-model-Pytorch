@@ -139,7 +139,7 @@ class DecoderBlock(nn.Module):
 class Decoder(nn.Module):
     def __init__(self, Layers: nn.ModuleList) -> None:
         super().__init__()
-        self.Layers= Layers 
+        self.Layers = Layers 
         self.normalization = NormalizationLayer()
     def forward(self, x, Encoder_output, source_mask, target_mask):
         for  layer in self.Layers:
