@@ -63,7 +63,7 @@ class FeedForwardBlock(nn.Module):
         self.Linear_2 = nn.Linear(d_ff, d_model)
     def forward(self, x):
         return self.Linear_2(self.dropout(torch.relu(self.Linear_1(x))))
-
+# the heart of the transformer 
 class MultiHeadAttentionBlock(nn.Module):
     def __init__(self, d_model: int, heads: int, dropout: float) -> None:
         super().__init__()
