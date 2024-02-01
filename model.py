@@ -56,7 +56,7 @@ class MultiHeadAttentionBlock(nn.Module):
         super().__init__()
         self.d_model = d_model
         self.heads = heads 
-        assert d_model % heads == 0 , "d_model is not divisbale by heads"
+        assert d_model % heads == 0 , "d_model is not divisible by heads"
 
         self.d_k = d_model // heads 
         
