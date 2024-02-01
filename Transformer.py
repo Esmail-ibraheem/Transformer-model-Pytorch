@@ -188,7 +188,7 @@ class TransformerBlock(nn.Module):
     def linear(self, x):
         return self.Linear(x)
 
-# Transformer model skeletone 
+# Transformer model skeleton 
 def Transformer_model(Args: Model_Arguments)->TransformerBlock:
 
     source_embedding = InputEmbeddingsLayer(Args.d_model, Args.source_vocab_size)
