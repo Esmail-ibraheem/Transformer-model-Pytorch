@@ -3,6 +3,7 @@ import math
 import torch 
 import torch.nn as nn
 
+# the data skeletone of the transformer.
 @dataclass
 class Model_Arguments:
     source_vocab_size: int
