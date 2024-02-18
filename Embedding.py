@@ -145,10 +145,6 @@ plt.show()
 #         total_loss += loss.item()
 #     print(f"Epoch {epoch+1}, Loss: {total_loss}")
 
-# # After training
-# print("After optimization, the parameters are...")
-# for name, param in modelFromScratch.named_parameters():
-#     print(name, param.data)
 
 softmax = nn.Softmax(dim = 0)
 print(torch.round(softmax(modelFromScratch(torch.tensor([[1., 0., 0., 0.]]))), decimals=2))
