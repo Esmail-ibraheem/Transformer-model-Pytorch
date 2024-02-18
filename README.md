@@ -3,7 +3,7 @@ I built the Transformer model itself from scratch from the paper "Attention is a
 
 ---
 
-#### Embedding Visualizer:
+### Embedding Visualizer:
 built the word embedding from scratch, but used it for a small dataset I created, or actually just some tokens: 
 ```
          w1        w2   token   input
@@ -36,7 +36,7 @@ output4_w2 tensor(0.0075)
 
 ---
 
-#### Positional Encoding Visualizer:
+### Positional Encoding Visualizer:
 ```
 [[ 0.          1.          0.         ...  1.          0.
    1.        ]
