@@ -134,7 +134,7 @@ plt.show()
 # Training loop
 # optimizer = Adam(modelFromScratch.parameters(), lr=0.1)
 # num_epochs = 100
-# for epoch in range(num_epochs):
+
 
 
 
