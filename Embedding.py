@@ -132,8 +132,7 @@ plt.text(dataFrame.w1[3], dataFrame.w2[3], dataFrame.token[3],
 plt.show()
 
 # Training loop
-# optimizer = Adam(modelFromScratch.parameters(), lr=0.1)
-# num_epochs = 100
+
 
 
 
