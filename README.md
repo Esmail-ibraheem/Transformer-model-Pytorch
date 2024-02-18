@@ -1,9 +1,9 @@
-# Transformer-model
+![image](https://github.com/Esmail-ibraheem/Transformer-model/assets/113830751/899cb840-64f4-4968-93e5-e233ecb3fde7)# Transformer-model
 I built the Transformer model itself from scratch from the paper "Attention is all you need", Feel free to use this model for your specific purposes: translation, text generation, etc...
 
 ---
 
-##### Embedding Visualizer:
+#### Embedding Visualizer:
 built the word embedding from scratch, but used it for a small dataset I created, or actually just some tokens: 
 ```
          w1        w2   token   input
@@ -36,7 +36,27 @@ output4_w2 tensor(0.0075)
 
 ---
 
-##### Positional Encoding Visualizer:
+#### Positional Encoding Visualizer:
+```
+[[ 0.          1.          0.         ...  1.          0.
+   1.        ]
+ [ 0.84147098  0.54030231  0.8317052  ...  0.99994627  0.01018134
+   0.99994817]
+ [ 0.90929743 -0.41614684  0.92355454 ...  0.99978509  0.02036163
+   0.99979268]
+ ...
+ [-0.99388865 -0.11038724 -0.03392828 ...  0.67538747  0.72739724
+   0.68621662]
+ [-0.62988799  0.77668598 -0.85006394 ...  0.66770653  0.73434615
+   0.67877517]
+ [ 0.31322878  0.9496777  -0.91001245 ...  0.65995384  0.74121893
+   0.67126336]]
+```
+![image](https://github.com/Esmail-ibraheem/Transformer-model/assets/113830751/5efdbf12-5470-40c9-bc48-6fa54677fdb4)
+
+![image](https://github.com/Esmail-ibraheem/Transformer-model/assets/113830751/1eb0781c-bba1-4d51-abbf-31b33c5e3e21)
+
+---
 
 developing process: 
 https://youtu.be/uWchpx4J6MY?si=iPYmauKz1MoQV9bh
