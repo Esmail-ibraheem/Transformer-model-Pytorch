@@ -135,15 +135,7 @@ plt.show()
 # optimizer = Adam(modelFromScratch.parameters(), lr=0.1)
 # num_epochs = 100
 # for epoch in range(num_epochs):
-#     total_loss = 0
-#     for inputs, labels in dataloader:
-#         optimizer.zero_grad()
-#         outputs = modelFromScratch(inputs)
-#         loss = modelFromScratch.loss_Function(outputs, labels[0])
-#         loss.backward()
-#         optimizer.step()
-#         total_loss += loss.item()
-#     print(f"Epoch {epoch+1}, Loss: {total_loss}")
+
 
 
 softmax = nn.Softmax(dim = 0)
