@@ -131,12 +131,6 @@ plt.text(dataFrame.w1[3], dataFrame.w2[3], dataFrame.token[3],
          weight = 'semibold')
 plt.show()
 
-# Training loop
-
-
-
-
-
 softmax = nn.Softmax(dim = 0)
 print(torch.round(softmax(modelFromScratch(torch.tensor([[1., 0., 0., 0.]]))), decimals=2))
 print(torch.round(softmax(modelFromScratch(torch.tensor([[0., 1., 0., 0.]]))), decimals=2))
