@@ -12,7 +12,7 @@ built the word embedding from scratch, but used it for a small dataset I created
 2  0.094321  0.121907      is  input3
 3 -0.489201  0.398983  Esmail  input4
 ```
-![image](https://github.com/Esmail-ibraheem/Transformer-model/assets/113830751/ab7f13cb-6baa-45f0-b8b0-74c7174dc0a1)
+![Figure_1](https://github.com/Esmail-ibraheem/Transformer-model/assets/113830751/92f4a1ee-862a-4b4b-a35e-671ce13fd709)
 
 ```
 Before optimization, the parameters are...
