@@ -52,6 +52,9 @@ output4_w2 tensor(0.0075)
  [ 0.31322878  0.9496777  -0.91001245 ...  0.65995384  0.74121893
    0.67126336]]
 ```
+![image](https://github.com/Esmail-ibraheem/Transformer-model/assets/113830751/5efdbf12-5470-40c9-bc48-6fa54677fdb4)
+
+![image](https://github.com/Esmail-ibraheem/Transformer-model/assets/113830751/1eb0781c-bba1-4d51-abbf-31b33c5e3e21)
 
 ---
 
@@ -77,10 +80,6 @@ Attention Weights:
   1.00000000e+000]]
 ```
 ![Figure_1](https://github.com/Esmail-ibraheem/Transformer-model/assets/113830751/0c9f105a-f375-4459-bec4-a96892859663)
-
-![image](https://github.com/Esmail-ibraheem/Transformer-model/assets/113830751/5efdbf12-5470-40c9-bc48-6fa54677fdb4)
-
-![image](https://github.com/Esmail-ibraheem/Transformer-model/assets/113830751/1eb0781c-bba1-4d51-abbf-31b33c5e3e21)
 
 ---
 
