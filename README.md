@@ -1,5 +1,5 @@
 # Transformer-model
-![Pasted image 20231220223916](https://github.com/Esmail-ibraheem/Transformer-model/assets/113830751/7a64dff3-620a-4416-ad3b-f6e59a2143c4)
+![image](https://github.com/Esmail-ibraheem/Transformer-model/assets/113830751/92f168f4-69f1-47d3-ab52-f3926773f019)
 
 I built the Transformer model itself from scratch from the paper "Attention is all you need", Feel free to use this model for your specific purposes: translation, text generation, etc...
 
