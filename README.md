@@ -93,5 +93,4 @@ Attention Weights:
 
 ---
 
-developing process: 
-https://youtu.be/uWchpx4J6MY?si=iPYmauKz1MoQV9bh
+[developing process](https://youtu.be/uWchpx4J6MY?si=iPYmauKz1MoQV9bh)
