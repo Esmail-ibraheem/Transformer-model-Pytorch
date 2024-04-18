@@ -9,6 +9,8 @@ I built the Transformer model itself from scratch from the paper "Attention is a
 
 ### Embedding Visualizer:
 built the word embedding from scratch, but used it for a small dataset I created, or actually just some tokens: 
+
+- The input sequence is transformed into fixed-dimensional embeddings, typically composed of word embeddings and positional encodings. Word embeddings capture the semantic meaning of each word. 
 ```
          w1        w2   token   input
 0  0.393158 -0.423314      My  input1
