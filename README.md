@@ -1,6 +1,6 @@
 # Transformer-model
 <p align="center">
-  <img src="https://github.com/Esmail-ibraheem/Transformer-model/blob/main/xz0gg46o.png" alt="Your Image Description" width="300" height=300">
+  <img src="https://github.com/Esmail-ibraheem/Transformer-model/blob/main/transformer.jpg" alt="Your Image Description" width="300" height=300">
 </p>
 
 I built the Transformer model itself from scratch from the paper "Attention is all you need", Feel free to use this model for your specific purposes: translation, text generation, etc...
