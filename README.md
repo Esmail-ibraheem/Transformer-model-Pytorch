@@ -43,6 +43,7 @@ output4_w2 tensor(0.0075)
 ---
 
 ### Positional Encoding Visualizer:
+- **positional encodings** indicate the word's position in the sequence using the sin and cos waves.
 ```
 [[ 0.          1.          0.         ...  1.          0.
    1.        ]
