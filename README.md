@@ -66,6 +66,9 @@ output4_w2 tensor(0.0075)
 ---
 
 ### Self-attention Visualization:
+- The core of the Transformer model is the self-attention mechanism. It allows each word in the input sequence to attend to all other words, capturing their relevance and influence. Self-attention computes three vectors for each word: Query, Key, and Value.
+- ![Pasted image 20231221101118](https://github.com/Esmail-ibraheem/Transformer-model/assets/113830751/84274d78-ab56-4c17-8f43-b415fabf1f90)
+
 ```
 Context Vectors:
 [[13. 14. 15. 16. 17.]
